@@ -11,6 +11,10 @@ body{
 /* header section  */
 .header-bg{
     overflow: hidden;
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
 }
 .jack{
     width: 40%;
@@ -54,7 +58,11 @@ body{
 /* biography section  */
 .biography-bg{
     overflow: hidden;
-    margin-top: 15%;
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .biography-image{
@@ -88,11 +96,13 @@ body{
     border-radius: 5px;
 }
 
-/* work section  */
+/* Latest work section  */
 .work-bg{
     overflow: hidden;
-    margin-top: 15%;
-    text-align: center;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
 }
 .work-bg h2{
     font-size: 36px;
@@ -111,10 +121,13 @@ body{
 }
 
 /* client section  */
-.client-bg{
+.footer-bg{
     overflow: hidden;
     text-align: center;
     margin-top: 15%;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .bruce h2{
     font-size: 36px;
@@ -145,7 +158,7 @@ body{
 }
 
 /* footer section  */
-footer {
+.footer-bg p {
     text-align: center;
     margin-top: 12%;
     margin-bottom: 5%;
